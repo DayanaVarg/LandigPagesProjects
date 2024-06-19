@@ -97,7 +97,52 @@ const LandingPageBlogr = () => {
             </div>
         </div>
         <div className="cont4">
+            <div className='ilustrationL'>
+            </div>
+            <div className='cont-i part2'>
+                <div>
+                    <h4>Free, open, simple</h4>
+                    <p>Blogr is a free and open source application backed by a large community of helpful developers. It supports 
+                    features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools, 
+                    and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.</p>
+                </div>
+                <div>
+                    <h4>Powerful tooling</h4>
+                    <p>Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but
+                    capable of producing even the most complicated sites.
+                    </p>
+                </div>
+            </div>    
+        </div>
 
+        <div className='cont5'>
+            <footer className='footer'>
+                <div className='imageLogo'>
+                    <div className='logoF'></div>
+                </div>
+                
+                <div className='infoSpa'>
+                    <p className='title'>Product</p>
+                    <a>Overview</a>
+                    <a>Pricing</a>
+                    <a>Marketplace</a>
+                    <a>Features</a>
+                    <a>Integrations</a>
+                </div>
+                <div className='infoSpa'>
+                    <p className='title'>Company</p>
+                    <a>About</a>
+                    <a>Team</a>
+                    <a>Blog</a>
+                    <a>Careers</a>
+                </div>
+                <div className='infoSpa'>
+                    <p className='title'>Connect</p>
+                    <a>Contact</a>
+                    <a>Newsletter</a>
+                    <a>LinkedIn</a>
+                </div>
+            </footer>
         </div>
     </div>
   )
