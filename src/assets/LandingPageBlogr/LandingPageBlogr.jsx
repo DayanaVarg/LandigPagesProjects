@@ -6,48 +6,50 @@ const LandingPageBlogr = () => {
   return (
     <div className='landingpageblogr'>
         <div className="cont1">
-            <header>
-                <div className='logo'></div>
-                <div className='nav'>
-                    <div class="dropdown">
-                        <div className='spaceB'><button>Product</button><div className='img'></div></div>
-                        <div class="dropdown-options">
-                            <a href="#">Overview</a>
-                            <a href="#">Pricing</a>
-                            <a href="#">Marketplace</a>
-                            <a href="#">Features</a>
-                            <a href="#">Integrations</a>
+            <div className='space1'>
+                <header>
+                    <div className='logo'></div>
+                    <div className='nav'>
+                        <div class="dropdown">
+                            <div className='spaceB'><button>Product</button><div className='img'></div></div>
+                            <div class="dropdown-options">
+                                <a href="#">Overview</a>
+                                <a href="#">Pricing</a>
+                                <a href="#">Marketplace</a>
+                                <a href="#">Features</a>
+                                <a href="#">Integrations</a>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                        <div className='spaceB'><button>Company</button><div className='img'></div></div> 
+                            <div class="dropdown-options">
+                                <a href="#">Integrations</a>
+                                <a href="#">Team</a>
+                                <a href="#">Blog</a>
+                                <a href="#">Careers</a>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                        <div className='spaceB'><button>Connect</button><div className='img'></div></div>
+                            <div class="dropdown-options">
+                                <a href="#">Contact</a>
+                                <a href="#">Newsletter</a>
+                                <a href="#">LinkedIn</a>
+                            </div>
                         </div>
                     </div>
-                    <div class="dropdown">
-                    <div className='spaceB'><button>Company</button><div className='img'></div></div> 
-                        <div class="dropdown-options">
-                            <a href="#">Integrations</a>
-                            <a href="#">Team</a>
-                            <a href="#">Blog</a>
-                            <a href="#">Careers</a>
-                        </div>
+                    <div className='opc'>
+                            <div className='buttonL'><button>Login</button></div>
+                            <div className='buttonS'><button>Sign Up</button></div>
                     </div>
-                    <div class="dropdown">
-                    <div className='spaceB'><button>Connect</button><div className='img'></div></div>
-                        <div class="dropdown-options">
-                            <a href="#">Contact</a>
-                            <a href="#">Newsletter</a>
-                            <a href="#">LinkedIn</a>
-                        </div>
+                </header>
+                <div className='info'>
+                    <h1>A modern publishing platform</h1>
+                    <p>Grow your audience and build your online brand</p>
+                    <div className='buttons'>
+                        <button className='btn btn1'>Start for Free</button>
+                        <button className='btn btn2'>Learn More</button>
                     </div>
-                </div>
-                <div className='opc'>
-                        <div className='buttonL'><button>Login</button></div>
-                        <div className='buttonS'><button>Sign Up</button></div>
-                </div>
-            </header>
-            <div className='info'>
-                <h1>A modern publishing platform</h1>
-                <p>Grow your audience and build your online brand</p>
-                <div className='buttons'>
-                    <button className='btn btn1'>Start for Free</button>
-                    <button className='btn btn2'>Learn More</button>
                 </div>
             </div>
         </div>
@@ -75,9 +77,26 @@ const LandingPageBlogr = () => {
                 </div>
             </div>
         </div>
-       
-
-        <div >
+        <div className="cont3">
+            <div className='spaceLine'>
+                
+                <div className='imgs'>    
+                    <div className='patternCircles'>
+                    </div>
+                </div>
+                <div className='space-info'>
+                    <div className='illustrationPhone'>
+                    </div>
+                    <div className='infoS'>
+                    <h1>State of the Art Infrastructure</h1>
+                    <p>With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. 
+                    This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div className="cont4">
 
         </div>
     </div>
